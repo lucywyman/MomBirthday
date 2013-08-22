@@ -10,7 +10,7 @@ body{
 /*Header CSS info*/
 #header{
     height: 70px;
-    background-image: url(bgtest.jpg);
+    background: #3cb2e1;
     background-repeat: repeat-x;
     box-shadow: 0px 2px 3px 1px #000000;
     width: 100%;
@@ -37,17 +37,17 @@ body{
 .link{
     display: block;
     text-decoration: none;
-    color: #336699;
+    color: #fdfe39;
     font-family: georgia;
     font-size: 25px;
     line-height: 70px;
     text-align: center;
 }
 .linkcell:hover {
-    background: #c83653;
+    background: #fdfe39;
 }
 .link:hover{
-    color:#336699;
+    color:#3cb2e1;
 }
 /*Page CSS info*/
 #page{
@@ -71,14 +71,17 @@ body{
     line-height: 100px;
     text-align: center;
     font-family: birthday;
-    color:#c83653;
+    color:#000000;
+}
+#beatles{
+    margin-right: auto;
+    margin-left: auto;
 }
 /*Footer CSS info*/
 #footer{
-    background: #336699;
-    height: 100px;
+    background: #3cb2e1;
+    height: 10px;
     width: 100%;
     margin: 0px;
     padding 0px;
-    border-top: 2px solid #c83653;
 }
