@@ -10,7 +10,7 @@ body{
 /*Header CSS info*/
 #header{
     height: 70px;
-    background: #3cb2e1;
+    background-image: url(bluegradient.jpg);
     background-repeat: repeat-x;
     box-shadow: 0px 2px 3px 1px #000000;
     width: 100%;
@@ -44,7 +44,7 @@ body{
     text-align: center;
 }
 .linkcell:hover {
-    background: #fdfe39;
+    background: #fdfe7d;
 }
 .link:hover{
     color:#3cb2e1;
@@ -53,12 +53,14 @@ body{
 #page{
     margin-left:20%;
     margin-right: 20%;
+    border: 0px;
     background: #fffff5;
     box-shadow: 0px 0px 3px 1px #000000;
-    padding: 0px;
     width:60%;
-    height: 800px;
     padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
 }
 #title{
     width: auto;
@@ -76,6 +78,13 @@ body{
 #beatles{
     margin-right: auto;
     margin-left: auto;
+    width: 640px;
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#h2{
+    
 }
 /*Footer CSS info*/
 #footer{
@@ -83,5 +92,6 @@ body{
     height: 10px;
     width: 100%;
     margin: 0px;
-    padding 0px;
+    padding: 0px;
+    border: 0px;
 }
