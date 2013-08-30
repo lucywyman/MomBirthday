@@ -2,6 +2,7 @@ body{
     background-image: url("gplaypattern.png");
     margin: 0px;
     padding:0px;
+    height: 5825px;
 }
 @font-face{
     font-family: birthday;
@@ -14,6 +15,10 @@ body{
 @font-face{
     font-family: dunkin;
     src: url('Dunkin.ttf')
+}
+@font-face{
+    font-family: time;
+    src: url('cinnamon cake.ttf')
 }
 /*Header CSS info*/
 #header{
@@ -33,6 +38,12 @@ body{
     margin-top: 0px;
     padding: 0px;
     white-space: nowrap;
+    font-size: 0px;
+}
+#logolink{
+    display: block;
+    text-decoration: none;
+    color:#000000;
 }
 .linkcell{
     list-style-type: none;
@@ -43,6 +54,7 @@ body{
     margin: 0px;
     border: 0px;
     text-align: center;
+    transition: 1s;
 }
 .link{
     display: block;
@@ -52,6 +64,7 @@ body{
     font-size: 25px;
     line-height: 35px;
     text-align: center;
+    transition: 1s;
 }
 .linkcell:hover {
     background: #fdfe7d;
@@ -74,17 +87,20 @@ body{
 }
 /*Page CSS info*/
 #page{
-    margin-left:20%;
-    margin-right: 20%;
-    border: 1px solid black;
-    background: inherit;
-    width:60%;
-    padding-top: 70px;
+    margin-left:15%;
+    margin-right: 15%;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px #999999;
+    width:70%;
+    padding-top: 35px;
     padding-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 0px;
-    overflow: hidden;
+    height: 6295px;
+}
+#ul{
+    padding: 0px;
 }
 #hfbm{
     font-size: 150px;
@@ -114,26 +130,42 @@ body{
     margin-bottom: 50px;
 }
 #line{
-    font-family: birthday;
+    font-family: time;
     font-size: 100px;
-    line-height: 100px;
-    text-align: center;  
+    line-height: 70px;
+    text-align: center;
+    margin: 0px;
+    padding: 40px;
+    
 }
 .paragraphs{
-    font-family: georgia;
-    font-size: 20px;
+    font-family: time;
+    font-size: 30px;
     line-height: 20px;
-    padding-bottom: 40px;
-    max-width: 370px;
-    margin: 0px;
+    padding: 0px;
+    margin: 5px;
+    bottom: 0px;
 }
 #photos{
     text-align: center;
 }
 .photo{
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+.photodiv{
     margin-bottom: 50px;
+    padding: 0px;
+    height: 420px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+.photolist{
+    width: 50%;
+    float: left;
+    list-style: none;
 }
 /*Footer CSS info*/
 #footer{
@@ -143,5 +175,6 @@ body{
     margin: 0px;
     padding: 0px;
     border: 0px;
-    bottom: 20px;
+    bottom: 0px;
+    position: fixed;
 }
