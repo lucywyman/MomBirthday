@@ -98,6 +98,9 @@ body{
     margin-bottom: 0px;
     bottom: 0px;
 }
+.fixit {
+    opacity: 0;
+}
 #hfbm{
     font-size: 150px;
     line-height: 500px;
@@ -105,9 +108,16 @@ body{
     font-family: birthday;
     color:#000000;
     margin: 0px;
-    -webkit-transform: translateY(50px);
-    -moz-transform: translateY(50px);
-    transition: 2s;
+    animation: hfbm 1s ease;
+    -webkit-animation: hfbm 1s ease;
+}
+@keyframes hfbm{
+    from {opacity: 0; transform: translate(0px, 50px);}
+    to {opacity: 1; transform: none;}
+}
+@-webkit-keyframes hfbm{
+    from {opacity: 0; -webkit-transform: translate(0px, 50px);}
+    to {opacity: 1; -webkit-transform: none;}*/
 }
 #title{
     -webkit-background-size: cover;
@@ -119,6 +129,7 @@ body{
     opacity: .6;
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 #beatles{
     margin-right: auto;

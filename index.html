@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/CSS" href="styles.css">
     <link rel="icon" type="image/gif" href="http://www.camelcollector.com.ar/Images/icons/birthday_icon2.gif">
     <link rel="stylesheet" href="DHF Happy Birthday Ryan.ttf">
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
 </head>
 <body style="background:#ffffff;">
     <div id="header">
@@ -20,12 +21,16 @@
         </ul>
     </div>
     <div id="title">
-            <h1 id="hfbm">Happy 50th Birthday Mom!</h1>
+        <h1 id="hfbm" class="fixit">Happy 50th Birthday Mom!</h1>
     </div>
 <footer id="footer">
     <div id="copydiv"><p id="copyright">&copy 2013 bwdesign</p></div>
 </footer>
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#hfbm").hide().removeClass("fixit").delay(1000).fadeIn(1000);
+    });
+</script>
 
 </body>
 </html>
