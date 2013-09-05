@@ -117,10 +117,11 @@ body{
 }
 @-webkit-keyframes hfbm{
     from {opacity: 0; -webkit-transform: translate(0px, 50px);}
-    to {opacity: 1; -webkit-transform: none;}*/
+    to {opacity: 1; -webkit-transform: none;}
 }
 #title{
     -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
     background-image: url(pinkcake.jpg);
     height: 100%;
